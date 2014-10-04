@@ -57,6 +57,6 @@ If you want to start to create a new feature or have any other questions regardi
  [1]: http://www.simon-marquis.fr
  
  [screen1]: https://raw.github.com/SimonMarquis/Android-InstallReferrer/master/resources/framed/1%20-%20resized.png "Undefined"
- [screen2]: https://raw.github.com/SimonMarquis/Android-InstallReferrer/master/Resources/framed/2%20-%20resized.png "Simple data"
- [screen3]: https://raw.github.com/SimonMarquis/Android-InstallReferrer/master/Resources/framed/3%20-%20resized.png "Special character"
- [screen4]: https://raw.github.com/SimonMarquis/Android-InstallReferrer/master/Resources/framed/4%20-%20resized.png "utm"
+ [screen2]: https://raw.github.com/SimonMarquis/Android-InstallReferrer/master/resources/framed/2%20-%20resized.png "Simple data"
+ [screen3]: https://raw.github.com/SimonMarquis/Android-InstallReferrer/master/resources/framed/3%20-%20resized.png "Special character"
+ [screen4]: https://raw.github.com/SimonMarquis/Android-InstallReferrer/master/resources/framed/4%20-%20resized.png "utm"
