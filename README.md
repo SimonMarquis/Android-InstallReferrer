@@ -1,4 +1,4 @@
-![Android-InstallReferrer](https://github.com/SimonMarquis/Android-InstallReferrer/blob/master/resources/Feature%20graphic%20-%20resized.png "Android-InstallReferrer") 
+![Android-InstallReferrer](https://raw.githubusercontent.com/SimonMarquis/Android-InstallReferrer/master/resources/Feature%20graphic%20-%20resized.png "Android-InstallReferrer") 
 #### Install Referrer is an Open Source application that allows you to test the referrer attribute on the Google Play Store.
 
 You can test <b>referrer</b> attribute using these links below:
