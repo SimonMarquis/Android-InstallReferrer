@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "fr.simon.marquis.installreferrer"
+        minSdkVersion 14
+        targetSdkVersion 20
+        versionCode 4
+        versionName "1.0.3"
+
+        signingConfigs {
+            release {
+                def Properties props = new Properties()
+                props.load(new FileInputStream(file('../../keystore.properties')))
+                keyAlias props["keyAlias"]
+                storePassword props["storePassword"]
+                keyPassword props["keyPassword"]
+                storeFile file('../../keystore')
+            }
+        }
+    }
+    buildTypes {
+        release {
+            runProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.0'
+}

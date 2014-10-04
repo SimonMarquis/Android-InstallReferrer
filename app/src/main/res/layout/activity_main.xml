@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@android:drawable/divider_horizontal_bright"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        tools:context="fr.simon.marquis.installreferrer.MainActivity" >
+
+        <TextView
+            android:id="@+id/app_name_and_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:typeface="serif" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="16dp"
+                android:textIsSelectable="true"
+                android:typeface="serif"
+                android:text="@string/loading"/>
+        </ScrollView>
+
+    </LinearLayout>
