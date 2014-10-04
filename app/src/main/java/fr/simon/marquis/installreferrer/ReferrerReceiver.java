@@ -12,7 +12,7 @@ import java.util.Date;
 
 public class ReferrerReceiver extends BroadcastReceiver {
     public static final String ACTION_UPDATE_DATA = "ACTION_UPDATE_DATA";
-    public static final String ACTION_INSTALL_REFERRER = "com.android.vending.INSTALL_REFERRER";
+    private static final String ACTION_INSTALL_REFERRER = "com.android.vending.INSTALL_REFERRER";
     private static final String KEY_REFERRER = "referrer";
 
     public ReferrerReceiver() {

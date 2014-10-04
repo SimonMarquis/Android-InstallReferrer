@@ -16,10 +16,10 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
-    TextView title;
-    TextView content;
+    private TextView title;
+    private TextView content;
 
-    private BroadcastReceiver mUpdateReceiver = new BroadcastReceiver() {
+    private final BroadcastReceiver mUpdateReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
             updateData();

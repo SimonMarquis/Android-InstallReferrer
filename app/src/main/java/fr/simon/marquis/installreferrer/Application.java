@@ -22,7 +22,7 @@ public class Application extends android.app.Application {
         setFirstLaunch(this);
     }
 
-    public static void setFirstLaunch(Context context) {
+    private static void setFirstLaunch(Context context) {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context.getApplicationContext());
         if (!sp.contains(FIRST_LAUNCH)) {
             sp.edit().putLong(FIRST_LAUNCH, new Date().getTime()).apply();
