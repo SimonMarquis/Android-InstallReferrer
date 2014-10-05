@@ -25,7 +25,7 @@ The referrer attribute will be broadcasted by the Play Store to your app <b>afte
 
 ## Video
 
-[![Youtube Video](http://img.youtube.com/vi/P6_y9YoTUT0/0.jpg)](http://www.youtube.com/watch?v=P6_y9YoTUT0)
+[![Youtube Video](http://img.youtube.com/vi/W_M9F7m57vA/0.jpg)](http://www.youtube.com/watch?v=W_M9F7m57vA)
 
 ## Pull requests
 
