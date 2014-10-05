@@ -1,15 +1,15 @@
-![Android-InstallReferrer](https://github.com/SimonMarquis/Android-InstallReferrer/blob/master/resources/Feature%20graphic%20-%20resized.png "Android-InstallReferrer") 
+![Android-InstallReferrer](https://raw.githubusercontent.com/SimonMarquis/Android-InstallReferrer/master/resources/Feature%20graphic%20-%20resized.png "Android-InstallReferrer") 
 #### Install Referrer is an Open Source application that allows you to test the referrer attribute on the Google Play Store.
 
 You can test <b>referrer</b> attribute using these links below:
 
-[**Play Store url**](https://play.google.com/store/apps/details?id=fr.simon.marquis.installreferrer&referrer=myReferrerValue)  
+<a href="https://play.google.com/store/apps/details?id=fr.simon.marquis.installreferrer&referrer=myReferrerValue">Play Store url</a>  
 `https://play.google.com/store/apps/details?id=fr.simon.marquis.installreferrer&referrer=myReferrerValue`
 
-[**Market url scheme**](market://details?id=fr.simon.marquis.installreferrer&referrer=myReferrerValue)  
+<a href="market://details?id=fr.simon.marquis.installreferrer&referrer=myReferrerValue">Market url scheme</a>  
 `market://details?id=fr.simon.marquis.installreferrer&referrer=myReferrerValue`
 
-[**Chrome Intent**](intent:#Intent;package=fr.simon.marquis.installreferrer&referrer=myReferrerValue;end)  
+<a href="intent:#Intent;package=fr.simon.marquis.installreferrer&referrer=myReferrerValue;end">Chrome Intent</a>  
 `intent:#Intent;package=fr.simon.marquis.installreferrer&referrer=myReferrerValue;end`
 
 The referrer attribute will be broadcasted by the Play Store to your app <b>after the first launch only</b>.
