@@ -10,7 +10,7 @@ You can test <b>referrer</b> attribute using these links below:
 `market://details?id=fr.simon.marquis.installreferrer&referrer=myReferrerValue`
 
 <a href="intent:#Intent;package=fr.simon.marquis.installreferrer&referrer=myReferrerValue;end">Chrome Intent</a>  
-`intent:#Intent;package=fr.simon.marquis.installreferrer&referrer=myReferrerValue;end`
+`intent:#Intent;package=fr.simon.marquis.installreferrer;S.market_referrer=myReferrerValue;end`
 
 The referrer attribute will be broadcasted by the Play Store to your app <b>after the first launch only</b>.
 
