@@ -1,4 +1,7 @@
 ![Android-InstallReferrer](https://raw.githubusercontent.com/SimonMarquis/Android-InstallReferrer/master/resources/Feature%20graphic%20-%20resized.png "Android-InstallReferrer") 
+
+### ⚠ Deprecated: [Still Using InstallBroadcast? Switch to the Play Referrer API by March 1, 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html)
+
 #### Install Referrer is an Open Source application that allows you to test the referrer attribute on the Google Play Store.
 
 You can test <b>referrer</b> attribute using these links below:
