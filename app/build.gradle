@@ -1,36 +1,24 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
-    buildToolsVersion "20.0.0"
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "fr.simon.marquis.installreferrer"
         minSdkVersion 14
-        targetSdkVersion 20
-        versionCode 7
+        targetSdkVersion 33
+        versionCode 8
         versionName "1"
-
-        signingConfigs {
-            release {
-                def Properties props = new Properties()
-                props.load(new FileInputStream(file('../../keystore.properties')))
-                keyAlias props["keyAlias"]
-                storePassword props["storePassword"]
-                keyPassword props["keyPassword"]
-                storeFile file('../../keystore')
-            }
-        }
     }
     buildTypes {
         release {
-            runProguard true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:20.0.0'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
 }
